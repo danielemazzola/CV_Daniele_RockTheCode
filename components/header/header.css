@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  padding: 10px 0;
+}
+#navHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo > h1 {
+  color: var(--secondary);
+}
+#navHeader > ul {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  border-radius: 20px;
+  gap: 10px;
+}
+#navHeader > ul > li > a {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 20px 5px;
+  transition: all 0.3s;
+}
+#navHeader > ul > li > a:hover {
+  background-color: var(--secondary);
+  border-radius: 10px;
+  color: var(--color-background);
+}
+.sm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.github {
+  width: 28px;
+}
+.linkedin {
+  width: 30px;
+}
