@@ -51,7 +51,7 @@ divImg.addEventListener('click', () => {
   alert.setAttribute('id', 'alert')
   alert.setAttribute(
     'style',
-    'display:flex; animation: fadeInOut 1s ease forwards;'
+    'display:flex; width:70%; animation: fadeInOut 1s ease forwards;'
   )
   btnClose.setAttribute('id', 'close')
   section.append(alert)
